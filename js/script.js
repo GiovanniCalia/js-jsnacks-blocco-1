@@ -33,7 +33,7 @@ if (parola.length > parola2.length){
 // Snack 3
 
 
-let arrNum = [];
+/*let arrNum = [];
 
 for (i = 0; i < 10; i++ ){
     let userNum = parseInt(prompt("inserisci un numero"));
@@ -46,9 +46,29 @@ for (i = 0; i < arrNum.length; i++ ){
     somma = somma + arrNum[i];
 }
 
-alert(somma);
+alert(somma);*/
 
 // SNACK 4
+
+const nome = prompt("Salve, qual è il suo nome?");
+
+const nomiInvitati = ["Giovanni", "Jessica", "Mauro", "Gabriel", "Nicoleta"];
+
+let presente = false;
+
+let risultato = document.getElementById("stampa");
+
+for (let index = 0; index < nomiInvitati.length; index++){
+    if (nomiInvitati[index] == nome){
+        presente = true;
+    }
+}
+
+if (presente){
+    risultato.innerHTML = `Benvenuto/a, ${nome}!`;
+} else{
+    risultato.innerHTML = `Spiacenti, il suo nome non è nella lista, ${nome}`;
+}
 
 // SNACK 5
 
