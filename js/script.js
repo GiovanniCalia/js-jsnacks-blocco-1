@@ -50,7 +50,7 @@ alert(somma);*/
 
 // SNACK 4
 
-const nome = prompt("Salve, qual è il suo nome?");
+/*const nome = prompt("Salve, qual è il suo nome?");
 
 const nomiInvitati = ["Giovanni", "Jessica", "Mauro", "Gabriel", "Nicoleta"];
 
@@ -68,9 +68,21 @@ if (presente){
     risultato.innerHTML = `Benvenuto/a, ${nome}!`;
 } else{
     risultato.innerHTML = `Spiacenti, il suo nome non è nella lista, ${nome}`;
-}
+}*/
 
 // SNACK 5
+
+let arrNum = [];
+
+for (i = 0; i < 6; i++ ){
+    let userNum = parseInt(prompt("inserisci un numero"));
+
+    if (userNum % 2 == 1){
+        arrNum.push(userNum)
+        console.log(arrNum)
+    } 
+}
+
 
 // SNACK 6
 
