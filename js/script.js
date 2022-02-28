@@ -54,6 +54,20 @@ for (i = 0; i < arrNum.length; i++ ){
 risultato.innerHTML = `La somma è: ${somma}`;
 */
 
+// METODO SENZA ARRAY 
+
+/*
+let risultato = document.getElementById("stampa");
+let somma = 0
+
+for (i = 0; i < 10; i++ ){
+    let userNum = parseInt(prompt("inserisci un numero"));
+    somma += userNum;
+}
+
+risultato.innerHTML = `La somma è: ${somma}`;
+*/
+
 
 // SNACK 4
 
@@ -166,6 +180,7 @@ console.log(media);
 
 // METODO EFFICENTE SENZA ARRAY
 
+
 /*
 let somma = 0;
 
@@ -179,5 +194,42 @@ console.log(media);
 console.log(somma);
 */
 
+
 // SNACK 2.1
+
+
+// METODO CON IL "FOR"
+
+/*
+let risultato = document.getElementById("stampa");
+let somma = 0
+
+for (i = 0; i < 6; i++ ){
+    let userNum = parseInt(prompt("inserisci un numero"));
+    somma += userNum;
+}
+
+risultato.innerHTML = `La somma è: ${somma}`;
+*/
+
+
+// METODO CON IL "WHILE"
+
+
+let i = [];
+let somma = 0;
+
+while (i.length < 6) {
+    let userNum = parseInt(prompt("inserisci un numero"));
+    somma += userNum;
+    i.push(userNum);
+}
+
+console.log(somma);
+
+// SNACK 2.2
+
+let numero = parseInt(prompt("Inserisci un numero"));
+
+
 
