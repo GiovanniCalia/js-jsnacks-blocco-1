@@ -233,6 +233,7 @@ console.log(somma);
 // SNACK 2.2
 
 
+/*
 let numero = parseInt(prompt("Inserisci un numero"));
 
 if (numero % 2 == 0){
@@ -240,8 +241,23 @@ if (numero % 2 == 0){
 } else if (numero % 2 == 1){
     console.log(numero + 1);
 }
+*/
 
 
 // SNACK 2.3
+
+
+let arrName = ["Giovanni", "Marco", "Chiara", "Gabriel", "Mauro"];
+let arrSurname = ["Calia", "Giannini", "Carta", "Spanu", "Constantinescu"];
+let i = 0
+
+
+while (i < 3){
+let randomName = Math.floor(Math.random() * arrName.length);
+let randomSurname = Math.floor(Math.random() * arrName.length);
+console.log(arrName[randomName], arrSurname[randomSurname]);
+i++;
+}
+
 
 
