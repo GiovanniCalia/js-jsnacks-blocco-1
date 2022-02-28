@@ -216,6 +216,7 @@ risultato.innerHTML = `La somma è: ${somma}`;
 // METODO CON IL "WHILE"
 
 
+/*
 let i = [];
 let somma = 0;
 
@@ -226,10 +227,21 @@ while (i.length < 6) {
 }
 
 console.log(somma);
+*/
+
 
 // SNACK 2.2
 
+
 let numero = parseInt(prompt("Inserisci un numero"));
 
+if (numero % 2 == 0){
+    console.log(numero);
+} else if (numero % 2 == 1){
+    console.log(numero + 1);
+}
+
+
+// SNACK 2.3
 
 
